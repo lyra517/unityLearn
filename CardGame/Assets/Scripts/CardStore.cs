@@ -26,7 +26,7 @@ public class CardStore : MonoBehaviour
         foreach (var count in cardRow)
         {
             string[] rowData = count.Split(',');
-            if (rowData[0] == "¿‡–Õ")
+            if (rowData[0] == "??")
             {
                 continue;
             }else if (rowData[0]=="monster")
